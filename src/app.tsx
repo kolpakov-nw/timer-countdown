@@ -1,11 +1,14 @@
 import React from 'react';
 import Timer from './components/Timer';
+import Countdown from './components/Countdown';
+import { Container } from './styles/Container.styles';
 
 function App() {
     return (
-            <div>
+            <Container>
                 <Timer title='Timer' />
-            </div>
+                <Countdown title='Countdown' />
+            </Container>
     );
 }
 
